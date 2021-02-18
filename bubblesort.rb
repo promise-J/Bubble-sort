@@ -15,20 +15,25 @@ loop do
   array
 end
 
-p bubble_sort([3,4,6, 444, 1, 53344,7,2])
+# p bubble_sort([3,4,6, 444, 1, 53344,7,2])
 
 # second project -- bubble_sort_by
 
-def bubble_sort_by(array)
-     array_size = array.length - 1
+def bubble_sort_by(arr)
+     array_size = arr.length - 1
     array_size.times do |i|
         array_size.times do |j|
-          if array[j] > array[j+1]
-            array[j], array[j+1] = array[j+1], array[j]
+          if yield(arr[j], arr[j+1]).positive?
+            arr[j], arr[j+1] = arr[j+1], arr[j]
           end
         end
     end
-  array
+  p arr
 end
 
-bubble_sort_by(["hi", "hello", "hey"])
+
+
+ bubble_sort_by(["hi", "hello", "hey"]) do |first, second|
+  first.length - second.length
+end
+# bubble_sort_by(arr)
