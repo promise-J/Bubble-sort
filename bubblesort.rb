@@ -5,7 +5,7 @@ def bubble_sort(array)
     (array_size - 1).times do |i|
     if array[i] > array[i + 1]
       array[i], array[i + 1] = array[i + 1], array[i]
-    did_swap = true
+      did_swap = true
     end
   end
   break unless did_swap
@@ -13,20 +13,21 @@ def bubble_sort(array)
   array
 end
 
-p bubble_sort([3, 4, 6, 444, 1, 53344, 7, 2])
+p bubble_sort()
 
 def bubble_sort_by(arr)
   array_size = arr.length - 1
   array_size.times do |i|
     array_size.times do |j|
-    if yield(arr[j], arr[j + 1]).positive?
-      arr[j], arr[j + 1] = arr[j + 1], arr[j]
+      if
+        yield(arr[j], arr[j + 1]).positive?
+        arr[j], arr[j + 1] = arr[j + 1], arr[j]
+      end
     end
-  end
   end
   p arr
 end
 
-bubble_sort_by(%w[hi, hello, hey]) do |first, second|
+bubble_sort_by() do |first, second|
   first.length - second.length
 end
