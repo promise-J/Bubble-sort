@@ -1,23 +1,10 @@
 # Bubble-sort
 
-> This is the HTML & CSS Capstone Project from Microverse program, It's a Directory for jobs website, built with HTML and CSS3 languages using Bootstrap 5 framework.
-
-![screenshot](./asset/images/screenshot.png)
-
+> This is the Advanced Building Blocks - Bubble Sort Project from Microverse program, It was developed with Ruby.
 
 ## 🔧 Built With
 
-- HTML and CSS3.
-- Using UX.
-- Using floats and flexbox.
-- Using framework Bootstrap 5.
-- Using StyleLinters.
-- W3 HTML Validation Service.
-
-## 🔴 Live Demo
-
-[Live Demo Link](https://danielufeli.github.io/directory-of-jobs/)
-
+- Ruby
 
 ## 🛠 Getting Started
 
@@ -35,11 +22,17 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@danielufeli](https://twitter.com/danielufeli)
 - Linkedin: [danielufeli](https://www.linkedin.com/in/danielufeli/)
 
+👤 **Johnson Promise**
+
+- GitHub: [promise-J](https://github.com/promise-J)
+- Twitter: [@Promise94353263](https://twitter.com/Promise94353263)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/promise-chiemela-788887142)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/danielufeli/directory-of-jobs/issues).
+Feel free to check the [issues page](https://github.com/promise-J/Bubble-sort/issues).
 
 ## 📝 License
 
