@@ -12,7 +12,7 @@ def bubble_sort(array)
   end
   array
 end
-p bubble_sort
+
 def bubble_sort_by(arr)
   array_size = arr.length - 1
   array_size.times do |_i|
@@ -21,7 +21,4 @@ def bubble_sort_by(arr)
     end
   end
   p arr
-end
-bubble_sort_by do |first, second|
-  first.length - second.length
 end
